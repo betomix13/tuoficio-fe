@@ -22,7 +22,7 @@ export default function App() {
         #services,
         #recommend,
         #testimonials,
-        footer
+        #footer
         `,
       {
         opacity: 0,

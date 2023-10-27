@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
+import logo from "../assets/tuoficio_logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 export default function Navbar() {
@@ -10,8 +10,8 @@ export default function Navbar() {
       <Nav>
         <div className="brand">
           <div className="container">
-            <img src={logo} alt="" />
-            Travelo
+            <img src={logo} alt="" style={{ width: '500px', height: 'auto' }} />
+            
           </div>
           <div className="toggle">
             {navbarState ? (
@@ -27,16 +27,16 @@ export default function Navbar() {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#services">About</a>
+            <a href="#services">Categorias</a>
           </li>
           <li>
-            <a href="#recommend">Places</a>
+            <a href="#recommend">Explorar</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">Acceder</a>
           </li>
         </ul>
-        <button>Connect</button>
+        <button>Profesional</button>
       </Nav>
       <ResponsiveNav state={navbarState}>
         <ul>
@@ -92,11 +92,11 @@ const Nav = styled.nav`
     li {
       a {
         text-decoration: none;
-        color: #0077b6;
+        color: #FF6922;
         font-size: 1.2rem;
         transition: 0.1s ease-in-out;
         &:hover {
-          color: #023e8a;
+          color: #0E2E50;
         }
       }
       &:first-of-type {

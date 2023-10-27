@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import homeImage from "../assets/hero.png";
+import homeImage from "../assets/1.jpg";
 export default function Hero() {
   return (
     <Section id="hero">
       <div className="background">
-        <img src={homeImage} alt="" />
+        <img src={homeImage} />
       </div>
       <div className="content">
         <div className="title">
-          <h1>TRAVEL TO EXPLORE</h1>
+          <h1>Encontrá la Mejor solución de forma fácil</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             natus, enim ipsam magnam odit deserunt itaque? Minima earum velit
@@ -18,18 +18,18 @@ export default function Hero() {
         </div>
         <div className="search">
           <div className="container">
-            <label htmlFor="">Where you want to go</label>
-            <input type="text" placeholder="Search Your location" />
+            <label htmlFor=""></label>
+            <input type="text" placeholder="Ingresa tu busqueda" />
           </div>
-          <div className="container">
+          {/* <div className="container">
             <label htmlFor="">Check-in</label>
             <input type="date" />
-          </div>
+          </div> */}
           <div className="container">
-            <label htmlFor="">Check-out</label>
-            <input type="date" />
+            <label htmlFor="   "></label>
+            <input type="text" placeholder="Ubicacion" />
           </div>
-          <button>Explore Now</button>
+          <button>Buscar</button>
         </div>
       </div>
     </Section>
@@ -99,7 +99,8 @@ const Section = styled.section`
           }
 
           &::placeholder {
-            color: black;
+            font-size: 1.1rem;
+            color: #03045e;
           }
           &:focus {
             outline: none;
@@ -112,12 +113,12 @@ const Section = styled.section`
         border-radius: 0.3rem;
         border: none;
         color: white;
-        background-color: #4361ee;
+        background-color: #FF6922;
         font-size: 1.1rem;
         text-transform: uppercase;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: #023e8a;
+          background-color: #0E2E50;
         }
       }
     }

@@ -4,34 +4,56 @@ import service1 from "../assets/service1.png";
 import service2 from "../assets/service2.png";
 import service3 from "../assets/service3.png";
 import service4 from "../assets/service4.png";
+import service5 from "../assets/service5.png";
+import service6 from "../assets/service6.png";
+import service7 from "../assets/service7.png";
 
 export default function Services() {
   const data = [
     {
       icon: service1,
-      title: "Get Best Prices",
+      title: "Hogar",
       subTitle:
-        "Pay through our application and save thousands and get amazing rewards.",
+        " Encuentre el contratista que necesita y comience hoy el proyecto de renovación de sus sueños..",
     },
     {
       icon: service2,
-      title: "Covid Safe",
+      title: "Salud",
       subTitle:
-        "We have all the curated hotels that have all the precaution for a covid safe environment.",
+        "Todo lo referente a tu salud lo econtras en un solo lugar",
     },
     {
       icon: service3,
-      title: "Flexible Payment",
+      title: "Comercio",
       subTitle:
-        " Enjoy the flexible payment through our app and get rewards on every payment.",
+        " Todas las compras en un solo lugar",
     },
     {
       icon: service4,
-      title: "Find The Best Near You",
+      title: "Automotor",
       subTitle:
-        "Find the best hotels and places to visit near you in a single click.",
+        " Todo para tu auto",
+    },
+    {
+      icon: service5,
+      title: "Alquileres",
+      subTitle:
+        " Todos los alquileres aqui",
+    },
+    {
+      icon: service6,
+      title: "Alquileres",
+      subTitle:
+        " Todos los alquileres aqui",
+    },
+    {
+      icon: service7,
+      title: "Alquileres",
+      subTitle:
+        " Todos los alquileres aqui",
     },
   ];
+  
   return (
     <Section id="services">
       {data.map((service, index) => {
