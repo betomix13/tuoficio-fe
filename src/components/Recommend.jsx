@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Destination1 from "../assets/Destination1.png";
-import Destination2 from "../assets/Destination2.png";
-import Destination3 from "../assets/Destination3.png";
-import Destination4 from "../assets/Destination4.png";
-import Destination5 from "../assets/Destination5.png";
-import Destination6 from "../assets/Destination6.png";
+import oficio1 from "../assets/oficio1.png";
 import info1 from "../assets/info1.png";
 import info2 from "../assets/info2.png";
 import info3 from "../assets/info3.png";
@@ -13,42 +8,42 @@ import info3 from "../assets/info3.png";
 export default function Recommend() {
   const data = [
     {
-      image: Destination1,
+      image: oficio1,
       title: "oficio 1",
       subTitle: "aqui va la descripcion",
       cost: "$precio",
       duration: "Calificacion",
     },
     {
-      image: Destination2,
+      image: oficio1,
       title: "oficio 2",
       subTitle: "aqui va la descripcion",
       cost: "54,200",
       duration: "Calificacion",
     },
     {
-      image: Destination3,
+      image: oficio1,
       title: "oficio 3",
       subTitle: "aqui va la descripcion",
       cost: "45,500",
       duration: "Calificacion",
     },
     {
-      image: Destination4,
+      image: oficio1,
       title: "oficio 4",
       subTitle: "aqui va la descripcion",
       cost: "24,100",
       duration: "Calificacion",
     },
     {
-      image: Destination5,
+      image: oficio1,
       title: "oficio 5",
       subTitle: "aqui va la descripcion",
       cost: "95,400",
       duration: "Calificacion",
     },
     {
-      image: Destination6,
+      image: oficio1,
       title: "oficio 6",
       subTitle: "aqui va la descripcion",
       cost: "38,800",
