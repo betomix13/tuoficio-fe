@@ -47,17 +47,17 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#services" onClick={() => setNavbarState(false)}>
-              About
+              Categoria
             </a>
           </li>
           <li>
             <a href="#recommend" onClick={() => setNavbarState(false)}>
-              Places
+              Explorar
             </a>
           </li>
           <li>
             <a href="#testimonials" onClick={() => setNavbarState(false)}>
-              Testimonials
+              Acceder
             </a>
           </li>
         </ul>

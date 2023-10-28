@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import avatarImage from "../assets/avatarImage.jpeg";
+import avatarImage from "../assets/avatarImage.jpg";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="title">
-        <h2>Happy Customers</h2>
+        <h2>Recomendaciones</h2>
       </div>
       <div className="testimonials">
         <div className="testimonial">
@@ -16,8 +16,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>usuario 1</h4>
+              <span>CEO - tu oficio DEV</span>
             </div>
           </div>
         </div>
@@ -29,8 +29,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>usuario 2</h4>
+              <span>CEO - tu oficio DEV</span>
             </div>
           </div>
         </div>
@@ -42,8 +42,8 @@ export default function Testimonials() {
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
-              <h4>Kishan Sheth</h4>
-              <span>CEO - Shashaan Web Solutions</span>
+              <h4>usuario 3</h4>
+              <span>CEO - tu oficio DEV</span>
             </div>
           </div>
         </div>

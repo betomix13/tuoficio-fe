@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <Section id="hero">
       <div className="background">
-        <img src={homeImage} />
+        <img src={homeImage} alt="" />
       </div>
       <div className="content">
         <div className="title">
