@@ -53,12 +53,13 @@ export default function Recommend() {
 
   const packages = [
     "Lo mas popular",
-    "Los mas recomentados",
+    "Los mas recomendados",
     "según ubicación ",
     "por precios",
   ];
 
   const [active, setActive] = useState(1);
+
   return (
     <Section id="recommend">
       <div className="title">
@@ -71,6 +72,7 @@ export default function Recommend() {
               <li
                 className={active === index + 1 ? "active" : ""}
                 onClick={() => setActive(index + 1)}
+                key={index} 
               >
                 {pkg}
               </li>
@@ -79,16 +81,16 @@ export default function Recommend() {
         </ul>
       </div>
       <div className="destinations">
-        {data.map((destination) => {
+        {data.map((destination, index) => {
           return (
-            <div className="destination">
+            <div className="destination" key={index}> {/* Agregar key */}
               <img src={destination.image} alt="" />
               <h3>{destination.title}</h3>
               <p>{destination.subTitle}</p>
               <div className="info">
                 <div className="services">
                   <img src={info1} alt="" />
-                  <img src={info2} alt="" />
+                  <img src={info2} alt="" /> {/* Arreglado aquí (info2") */}
                   <img src={info3} alt="" />
                 </div>
                 <h4>{destination.cost}</h4>
@@ -104,7 +106,6 @@ export default function Recommend() {
     </Section>
   );
 }
-
 const Section = styled.section`
   padding: 2rem 0;
   .title {
