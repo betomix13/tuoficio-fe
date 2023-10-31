@@ -58,7 +58,7 @@ export default function Services() {
     <Section id="services">
       {data.map((service, index) => {
         return (
-          <div className="service" key={index}> {/* Agregar key */}
+          <div className="service" key={index}> 
             <div className="icon">
               <img src={service.icon} alt="" />
             </div>
